@@ -4,100 +4,737 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <script src="https://kit.fontawesome.com/8251248775.js" crossorigin="anonymous"></script>
     <script src="./assets/js/app.js" defer></script>
     <title>TL01 - CSS3</title>
 </head>
 <body>
-    <header>
+    <header class="minimized">
         <div class="container__logo-menu">
-            <img class="" src="" alt="">
-            <h1>CSS3</h1>
-        </div>
-    </header>
-
-    <main>
-        <div class="main__articles">
-            <article class="section section--code">
-                <div class="container">
-                    <h2 class="section-title">Anchor placement</h2>
-
-                    <div class="code code--wider code--left" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                        <pre><code>&lt;div data-aos="fade-up"&#13;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data-aos-anchor-placement="top-bottom">&#13;&lt;/div></code></pre>
-                    </div>
-                    <div class="code code--wider code--right" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-                        <pre><code>&lt;div data-aos="fade-up"&#13;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data-aos-anchor-placement="center-bottom">&#13;&lt;/div></code></pre>
-                    </div>
-                    <div class="code code--wider code--left" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-                        <pre><code>&lt;div data-aos="fade-up"&#13;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data-aos-anchor-placement="bottom-bottom">&#13;&lt;/div></code></pre>
-                    </div>
-
-                    <div class="code code--wider code--right" data-aos="fade-up" data-aos-anchor-placement="top-center">
-                        <pre><code>&lt;div data-aos="fade-up"&#13;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data-aos-anchor-placement="top-center">&#13;&lt;/div></code></pre>
-                    </div>
-                    <div class="code code--wider code--left" data-aos="fade-up" data-aos-anchor-placement="center-center">
-                        <pre><code>&lt;div data-aos="fade-up"&#13;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data-aos-anchor-placement="center-center">&#13;&lt;/div></code></pre>
-                    </div>
-                    <div class="code code--wider code--right" data-aos="fade-up" data-aos-anchor-placement="bottom-center">
-                        <pre><code>&lt;div data-aos="fade-up"&#13;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data-aos-anchor-placement="bottom-center">&#13;&lt;/div></code></pre>
-                    </div>
-                </div>
-            </article>
-            <article class="section section--code">
-                <div class="container">
-                    <h2 class="section-title">Anchor placement</h2>
-
-                    <div class="code code--wider code--left" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                        <pre><code>&lt;div data-aos="fade-up"&#13;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data-aos-anchor-placement="top-bottom">&#13;&lt;/div></code></pre>
-                    </div>
-                    <div class="code code--wider code--right" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-                        <pre><code>&lt;div data-aos="fade-up"&#13;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data-aos-anchor-placement="center-bottom">&#13;&lt;/div></code></pre>
-                    </div>
-                    <div class="code code--wider code--left" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-                        <pre><code>&lt;div data-aos="fade-up"&#13;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data-aos-anchor-placement="bottom-bottom">&#13;&lt;/div></code></pre>
-                    </div>
-
-                    <div class="code code--wider code--right" data-aos="fade-up" data-aos-anchor-placement="top-center">
-                        <pre><code>&lt;div data-aos="fade-up"&#13;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data-aos-anchor-placement="top-center">&#13;&lt;/div></code></pre>
-                    </div>
-                    <div class="code code--wider code--left" data-aos="fade-up" data-aos-anchor-placement="center-center">
-                        <pre><code>&lt;div data-aos="fade-up"&#13;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data-aos-anchor-placement="center-center">&#13;&lt;/div></code></pre>
-                    </div>
-                    <div class="code code--wider code--right" data-aos="fade-up" data-aos-anchor-placement="bottom-center">
-                        <pre><code>&lt;div data-aos="fade-up"&#13;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data-aos-anchor-placement="bottom-center">&#13;&lt;/div></code></pre>
-                    </div>
-                </div>
-            </article>
+            <img class="logo" src="./assets/img/logo_petit.png" alt="Logo du header">
+            <h1>CSS3 - de A à Z</h1>
         </div>
         <nav class="nav__sidebar">
             <ul>
-                <li><a href="#">A</a></li>
-                <li><a href="#">B</a></li>
-                <li><a href="#">C</a></li>
-                <li><a href="#">D</a></li>
-                <li><a href="#">E</a></li>
-                <li><a href="#">F</a></li>
-                <li><a href="#">G</a></li>
-                <li><a href="#">H</a></li>
-                <li><a href="#">I</a></li>
-                <li><a href="#">J</a></li>
-                <li><a href="#">K</a></li>
-                <li><a href="#">L</a></li>
-                <li><a href="#">M</a></li>
-                <li><a href="#">N</a></li>
-                <li><a href="#">O</a></li>
-                <li><a href="#">P</a></li>
-                <li><a href="#">Q</a></li>
-                <li><a href="#">R</a></li>
-                <li><a href="#">S</a></li>
-                <li><a href="#">T</a></li>
-                <li><a href="#">U</a></li>
-                <li><a href="#">V</a></li>
-                <li><a href="#">W</a></li>
-                <li><a href="#">X</a></li>
-                <li><a href="#">Y</a></li>
-                <li><a href="#">Z</a></li>
+                <li><a href="#column-fill">A</a></li>
+                <li><a href="#box-shadow">B</a></li>
+                <li><a href="#caret-color">C</a></li>
+                <li><a href="#decoration">D</a></li>
+                <li><a href="#transition">E</a></li>
+                <li><a href="#filters">F</a></li>
+                <li><a href="#gradients">G</a></li>
+                <li><a href="#" class="empty-link">H</a></li>
+                <li><a href="#image-slice">I</a></li>
+                <li><a href="#" class="empty-link">J</a></li>
+                <li><a href="#keyframes">K</a></li>
+                <li><a href="#line-break">L</a></li>
+                <li><a href="#media">M</a></li>
+                <li><a href="#" class="empty-link">N</a></li>
+                <li><a href="#orientation">O</a></li>
+                <li><a href="#clip-path">P</a></li>
+                <li><a href="#" class="empty-link">Q</a></li>
+                <li><a href="#" class="empty-link">R</a></li>
+                <li><a href="#" class="empty-link">S</a></li>
+                <li><a href="#transform">T</a></li>
+                <li><a href="#" class="empty-link">U</a></li>
+                <li><a href="#visibility">V</a></li>
+                <li><a href="#" class="empty-link">W</a></li>
+                <li><a href="#grid">X</a></li>
+                <li><a href="#" class="empty-link">Y</a></li>
+                <li><a href="#" class="empty-link">Z</a></li>
             </ul>
         </nav>
+    </header>
+    <main>
+        <button aria-label="Retour vers le haut de la page" class="btn--scroll-up hide"><i class="fa-solid fa-angles-up"></i></button>
+        <article>
+            <div class="article__container">
+                <h2 id="box-shadow">Box-shadow</h2>
+                <div class="article__rendu">
+                    <h3>Rendu</h3>
+                    <div class="exemple__box-shadow">
+                        <span>Box-shadow</span>
+                    </div>
+                </div>
+                <div class="article__code">
+                    <h3>Code</h3>
+                    <div class="article__code-exemple">
+                        <pre><code>
+                            .exemple__box-shadow {
+                            &nbsp;display: flex;
+                            &nbsp;justify-content: center;
+                            &nbsp;align-items: center;
+                            &nbsp;width: 5rem;
+                            &nbsp;height: 5rem;
+                            &nbsp;background-color: orange; 
+                            &nbsp;text-align: center;
+                            &nbsp;box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+                        }</code></pre>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="article__container">
+                <h2 id="keyframes">Keyframes</h2>
+                <div class="article__rendu">
+                    <h3>Rendu</h3>
+                    <div class="exemple__keyframes">
+                        <span>Boîte animée</span>
+                    </div>
+                </div>
+                <div class="article__code">
+                    <h3>Code</h3>
+                    <div class="article__code-exemple">
+                        <pre><code>.exemple__keyframes {
+                            &nbsp;display: flex;
+                            &nbsp;align-items: center;
+                            &nbsp;justify-content: center;
+                            &nbsp;font-size: 0.8rem;
+                            &nbsp;width: 5rem;
+                            &nbsp;height: 5rem;
+                            &nbsp;background-color: red;
+                            &nbsp;position: relative;
+                            &nbsp;animation: slide 4s infinite alternate;
+                        }
+                        
+                        @keyframes slide {
+                            &nbsp;from {
+                                &nbsp;&nbsp;left: 0;
+                                &nbsp;}
+                            &nbsp;to {
+                                &nbsp;&nbsp;left: 50%;
+                                &nbsp;}
+                        }</code></pre>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="article__container">
+                <h2 id="filters">Filters</h2>
+                <div class="article__rendu">
+                    <h3>Rendu</h3>
+                    <div class="exemple__filters">
+                        <div class="image-filtre">
+                            <img src="/assets/img/exemple-oeufs.jpg" alt="Exemple du filtre donnant des oeufs flous et colorés">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="article__code">
+                    <h3>Code</h3>
+                    <div class="article__code-exemple">
+                        <pre><code>.exemple__filters {
+                            &nbsp;display: flex;
+                            &nbsp;justify-content: center;
+                        }
+                        
+                        .image-filtre img {
+                            &nbsp;width: 100%;
+                            &nbsp;max-width: 100px; 
+                            &nbsp;filter: blur(3px) saturate(3);
+                        }</code></pre>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="article__container">
+                <h2 id="gradients">Linear gradients</h2>
+                <div class="article__rendu">
+                    <h3>Rendu</h3>
+                    <div class="exemple__gradient">
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </div>
+                </div>
+                <div class="article__code">
+                    <h3>Code</h3>
+                    <div class="article__code-exemple">
+                        <div class="">
+                            <pre><code>.exemple__gradient {
+                                &nbsp;display: flex;
+                                &nbsp;flex-direction: column;
+                                &nbsp;align-items: center;
+                                &nbsp;justify-content: center;
+                                &nbsp;width: 5rem;
+                                &nbsp;background: linear-gradient(to right, #ff7e5f, #feb47b);
+                            }</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="article__container">
+                <h2 id="decoration">Text-decoration</h2>
+                <div class="article__rendu">
+                    <h3>Rendu</h3>
+                    <div class="exemple__text-decoration">
+                        <p class="underline">Ce texte est souligné.</p>
+                        <p class="overline">Ce texte a une ligne au-dessus.</p>
+                        <p class="line-through">Ce texte est barré.</p>
+                        <p class="fancy">Décoration personnalisée.</p>
+                    </div>
+                </div>
+                <div class="article__code">
+                    <h3>Code</h3>
+                    <div class="article__code-exemple">
+                        <pre><code>.underline {
+                            &nbsp;text-decoration: underline;
+                            &nbsp;text-decoration-color: blue; 
+                        }
+                        
+                        .overline {
+                            &nbsp;text-decoration: overline;
+                            &nbsp;text-decoration-color: green; 
+                        }
+                        
+                        .line-through {
+                            &nbsp;text-decoration: line-through;
+                            &nbsp;text-decoration-color: red; 
+                        }
+                        
+                        .fancy {
+                            &nbsp;text-decoration: underline wavy red; 
+                            &nbsp;text-decoration-thickness: 2px; 
+                            &nbsp;text-decoration-style: wavy; 
+                            &nbsp;text-decoration-skip-ink: auto; 
+                        }</code></pre>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="article__container">
+                <h2 id="line-break">Line-break</h2>
+                <div class="article__rendu">
+                    <h3>Rendu</h3>
+                    <div class="exemple__line-break">
+                        <div class="normal-break break">
+                            <p>Ceci est un paragraphe avec un <strong>line-break normal</strong>. Il devrait couper les mots seulement aux endroits normaux sans forcer de cassures supplémentaires.</p>
+                        </div>
+                        <div class="strict-break break">
+                            <p>Ceci est un paragraphe avec un <strong>line-break strict</strong>. Il peut casser des mots à n'importe quel endroit.</p>
+                        </div>
+                        <div class="loose-break break">
+                            <p>Ceci est un paragraphe avec un <strong>line-break loose</strong>. Il minimise les occasions de casser les mots, ce qui peut rendre le texte un peu plus propre visuellement, même dans des colonnes étroites.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="article__code">
+                    <h3>Code</h3>
+                    <div class="article__code-exemple">
+                        <pre><code>.exemple__line-break {
+                            &nbsp;display: flex;
+                            &nbsp;flex-direction: column;
+                            &nbsp;gap: 1rem;
+                        }
+                        
+                        .break {
+                            &nbsp;border: solid var(--color-black) 2px;
+                            &nbsp;padding: 0.5rem;
+                            &nbsp;background-color: #eee;
+                        }
+                        
+                        .normal-break p {
+                            &nbsp;line-break: auto;
+                            &nbsp;margin: 0;
+                        }
+                        
+                        .strict-break p {
+                            &nbsp;line-break: anywhere;
+                            &nbsp;margin: 0;
+                        }
+                        
+                        .loose-break p {
+                            &nbsp;line-break: loose;
+                            &nbsp;margin: 0;
+                        }</code></pre>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="article__container">
+                <h2 id="visibiity">Back-face visibility</h2>
+                <div class="article__rendu">
+                    <h3>Rendu</h3>
+                    <div class="exemple__backface-visibility">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <p>Face avant de la carte</p>
+                            </div>
+                            <div class="card-back">
+                                <p>Face arrière de la carte</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="article__code">
+                    <h3>Code</h3>
+                    <div class="article__code-exemple">
+                        <pre><code>
+                            .exemple__backface-visibility {
+                                &nbsp;margin: auto;
+                                &nbsp;width: 6rem;
+                                &nbsp;height: 6rem;
+                                &nbsp;perspective: 1000px; 
+                            }
+                            
+                            .card-inner {
+                                &nbsp;width: 100%;
+                                &nbsp;height: 100%;
+                                &nbsp;position: relative;
+                                &nbsp;text-align: center;
+                                &nbsp;transition: transform 0.6s;
+                                &nbsp;transform-style: preserve-3d;
+                                &nbsp;cursor: pointer;
+                            }
+                            
+                            .card-front, .card-back {
+                                &nbsp;width: 100%;
+                                &nbsp;height: 100%;
+                                &nbsp;position: absolute;
+                                &nbsp;backface-visibility: hidden;
+                                &nbsp;display: flex;
+                                &nbsp;justify-content: center;
+                                &nbsp;align-items: center;
+                                &nbsp;border: 1px solid #ccc;
+                                &nbsp;background-color: #fff;
+                            }
+                            
+                            .card-front {
+                                &nbsp;color: black;
+                            }
+                            
+                            .card-back {
+                                &nbsp;color: white;
+                                &nbsp;background-color: #1ac065;
+                                &nbsp;transform: rotateY(180deg); 
+                            }
+                            
+                            .card-inner:hover {
+                                &nbsp;transform: rotateY(180deg); 
+                            }</code></pre>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="article__container">
+                <h2 id="grid">Grid</h2>
+                <div class="article__rendu">
+                    <h3>Rendu</h3>
+                    <div class="exemple__grid">
+                        <div class="grid-item">1</div>
+                        <div class="grid-item">2</div>
+                        <div class="grid-item">3</div>
+                        <div class="grid-item">4</div>
+                        <div class="grid-item">5</div>
+                        <div class="grid-item">6</div>
+                    </div>
+                    <div class="article__code">
+                        <h3>Code</h3>
+                        <div class="article__code-exemple">
+                            <pre><code>.exemple__grid {
+                                &nbsp;display: grid;
+                                &nbsp;grid-template-columns: repeat(3, 1fr);
+                                &nbsp;grid-template-rows: auto;
+                                &nbsp;gap: 0.8rem;
+                                &nbsp;padding: 0.8rem;
+                            }
+                            
+                            .grid-item {
+                                &nbsp;background-color: rgb(255, 71, 194);
+                                &nbsp;border: solid black 2px;
+                                &nbsp;padding: 1rem;
+                                &nbsp;text-align: center;
+                            }</code></pre>
+                        </div>
+                    </div>
+                </div>
+        </article>
+        <article>
+            <div class="article__container">
+                <h2 id="orientation">Text orientation</h2>
+                <div class="article__rendu">
+                    <h3>Rendu</h3>
+                    <div class="exemple__text-orientation">
+                        <div class="vertical-rl">
+                            Lecture verticale de droite à gauche.
+                        </div>
+                        <div class="vertical-lr">
+                            Lecture de côté de gauche à droite.
+                        </div>
+                    </div>
+                </div>
+                <div class="article__code">
+                    <h3>Code</h3>
+                    <div class="article__code-exemple">
+                        <pre><code>.exemple__text-orientation {
+                            &nbsp;display: flex;
+                            &nbsp;flex-direction: column;
+                            &nbsp;justify-content: center;
+                            &nbsp;align-items: center;
+                            &nbsp;gap: 1rem;
+                        }
+                        
+                        .vertical-rl {
+                            &nbsp;display: flex;
+                            &nbsp;flex-wrap: wrap;
+                            &nbsp;writing-mode: vertical-rl;
+                            &nbsp;text-orientation: upright;
+                            &nbsp;hyphens: auto;
+                            &nbsp;border: 1px solid black;
+                            &nbsp;min-width: 9rem;
+                            &nbsp;max-height: 10rem;
+                            &nbsp;padding: 0.8rem;
+                            &nbsp;background-color: white;
+                        }
+                        
+                        .vertical-lr {
+                            &nbsp;writing-mode: vertical-lr;
+                            &nbsp;text-orientation: sideways;
+                            &nbsp;border: 1px solid black;
+                            &nbsp;min-width: 9rem;
+                            &nbsp;max-height: 10rem;
+                            &nbsp;padding: 0.8rem;
+                            &nbsp;background-color: white;
+                        }</code></pre>
+                    </div>
+                </div>
+
+            </div>
+        </article>
+        <article>
+            <div class="article__container">
+                <h2 id="transform">Transform </h2>
+                <div class="article__rendu">
+                    <h3>Rendu</h3>
+                    <div class="exemple__transform">
+                        <div class="shape rotate">Rotation</div>
+                        <div class="shape scale">Échelle</div>
+                        <div class="shape translate">Translation</div>
+                        <div class="shape skew">Inclinaison</div>
+                        <div class="shape perspective">Perspective</div>
+                        <div class="shape skew-translate">Inclinaison + Translation</div>
+                    </div>
+                </div>
+                <div class="article__code">
+                    <h3>Code</h3>
+                    <div class="article__code-exemple">
+                        <pre><code>.exemple__transform {
+                            &nbsp;display: flex;
+                            &nbsp;flex-direction: column;
+                            &nbsp;gap: 4rem;
+                        }
+                        
+                        .shape {
+                            &nbsp;width: 5rem;
+                            &nbsp;height: 5rem;
+                            &nbsp;display: inline-block;
+                            &nbsp;border: 2px solid rgb(0, 0, 0);
+                        }
+                        
+                        .rotate {
+                            &nbsp;background-color: pink;
+                            &nbsp;transform: rotate(45deg);
+                        }
+                        
+                        .scale {
+                            &nbsp;background-color: orange;
+                            &nbsp;transform: scale(1.5);
+                        }
+                        
+                        .translate {
+                            &nbsp;background-color: green;
+                            &nbsp;transform: translate(50px, 50px);
+                        }
+                        
+                        .skew {
+                            &nbsp;background-color: blueviolet;
+                            &nbsp;transform: skew(10deg, 20deg);
+                        }
+                        
+                        .perspective {
+                            &nbsp;width: 5rem;
+                            &nbsp;height: 5rem;
+                            &nbsp;padding: 1rem;
+                            &nbsp;font-size: 0.8rem;
+                            &nbsp;text-align: center;
+                            &nbsp;background-color: limegreen;
+                            &nbsp;transform: perspective(15rem) rotateX(30deg) rotateY(-50deg);
+                        }
+                        
+                        .skew-translate {
+                            &nbsp;background-color: gold;
+                            &nbsp;margin-top: 5rem;
+                            &nbsp;transform: skew(15deg) translate(-2rem, -2rem);
+                        }</code></pre>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="article__container">
+                <h2 id="image-slice">Border-image-slice</h2>
+                <div class="article__rendu">
+                    <h3>Original</h3>
+                    <div class="exemple__avant_border-image-slice">
+                        <img src="./assets/img/exemple-border-image-slice.png" alt="" width="225" height="225">
+                    </div>
+                    <h3>Rendu</h3>
+                    <div class="exemple__border-image-slice">
+                    </div>
+                </div>
+
+                <div class="article__code">
+                    <h3>Code</h3>
+                    <div class="article__code-exemple">
+                        <pre><code>.exemple__border-image-slice {
+                            &nbsp;width: 9rem;
+                            &nbsp;height: 9rem;
+                            &nbsp;border: solid 7rem;
+                            &nbsp;border-image-source: url(../img/exemple-border-image-slice.png);
+                            &nbsp;border-image-slice: 40%;
+                        }</code></pre>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="article__container">
+                <h2 id="column-fill">Column fill</h2>
+                <div class="article__rendu">
+                    <h3>Rendu</h3>
+                    <div class="exemple__column-fill">
+                        <p>
+                            « La mer est à marée basse, la plage à sable haut. »
+                        </p>
+                        <p>
+                            « Le moche ne peut que progresser. Il surprendra sans cesse. »
+                        </p>
+                        <p>
+                            « La gloire va mieux aux morts. C'est un vêtement d'emprunt, elle rend les vivants ridicules. »
+                        </p>
+                    </div>
+                </div>
+                <div class="article__code">
+                    <h3>Code</h3>
+                    <div class="article__code-exemple">
+                        <pre><code>.exemple__column-fill {
+                            &nbsp;column-count: 3;
+                            &nbsp;column-gap: 1rem;
+                            &nbsp;column-fill: balance;
+                            &nbsp;column-rule: var(--color-pink) solid 2px;
+                            &nbsp;max-height: 19rem;
+                            &nbsp;border: 1px solid #ccc;
+                            &nbsp;padding: 1.5rem;
+                            &nbsp;hyphens: auto;
+                            &nbsp;background-color: white;
+                        }
+                        
+                        .exemple__column-fill p {
+                            &nbsp;font-size: 0.8rem;
+                        }</code></pre>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="article__container">
+                <h2 id="transition">Transition</h2>
+                <div class="article__rendu">
+                    <h3>Rendu</h3>
+                    <div class="exemple__transition">
+                        <button>Transition</button>
+                    </div>
+                </div>
+                <div class="article__code">
+                    <h3>Code</h3>
+                    <div class="article__code-exemple">
+                        <pre><code>.exemple__transition button {
+                            &nbsp;background-color: rgb(173, 230, 176);
+                            &nbsp;padding: 10px 20px;
+                            &nbsp;border: none;
+                            &nbsp;border-radius: 5px;
+                            &nbsp;font-size: 16px;
+                            &nbsp;cursor: pointer;
+                            &nbsp;transition: background-color 0.3s ease, transform 0.3s ease;
+                        }
+                        
+                        .exemple__transition button:hover {
+                            &nbsp;background-color: rgb(70, 206, 65);
+                            &nbsp;transform: scale(1.2);
+                        }</code></pre>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="article__container">
+                <h2 id="cli-path">Clip-path</h2>
+                <div class="article__rendu">
+                    <h3>Rendu</h3>
+                    <div class="exemple__clip-path">
+                        
+                    </div>
+                </div>
+                <div class="article__code">
+                    <h3>Code</h3>
+                    <div class="article__code-exemple">
+                        <pre><code>.exemple__clip-path {
+                            &nbsp;width: 6rem;
+                            &nbsp;height: 6rem;
+                            &nbsp;background-color: lightgreen;
+                            &nbsp;clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+                        }</code></pre>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="article__container">
+                <h2 id="media">Media Queries</h2>
+                <div class="article__rendu">
+                    <h3>Rendu</h3>
+                    <div class="exemple__media">
+                        <div class="box">
+                            <span class="media-mobile">Format mobile</span>
+                            <span class="media-tablet">Format tablet</span>
+                            <span class="media-desktop">Format desktop</span>
+                        </div>
+                        <div class="box">
+                            <span class="media-mobile">Format mobile</span>
+                            <span class="media-tablet">Format tablet</span>
+                            <span class="media-desktop">Format desktop</span>
+                        </div>
+                        <div class="box">
+                            <span class="media-mobile">Format mobile</span>
+                            <span class="media-tablet">Format tablet</span>
+                            <span class="media-desktop">Format desktop</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="article__code">
+                    <h3>Code</h3>
+                    <div class="article__code-exemple">
+                        <pre><code>.exemple__media {
+                            &nbsp;display: flex;
+                            &nbsp;flex-direction: column;
+                            &nbsp;gap: 1rem;
+                            &nbsp;background-color: lightblue;
+                            &nbsp;padding: 1rem;
+                        }
+                        
+                        .box {
+                            &nbsp;display: flex;
+                            &nbsp;justify-content: center;
+                            &nbsp;align-items: center;
+                            &nbsp;text-align: center;
+                            &nbsp;width: 5rem;
+                            &nbsp;height: 5rem;
+                            &nbsp;background-color: darkblue;
+                            &nbsp;color: white;
+                        }
+                        
+                        .media-mobile {
+                            &nbsp;display: block;
+                        }
+                        
+                        .media-tablet {
+                            &nbsp;display: none;
+                        }
+                        
+                        .media-desktop {
+                            &nbsp;display: none;
+                        }
+                    
+                        @media (min-width: 768px) {
+                            .exemple__media {
+                                &nbsp;flex-flow: row wrap;
+                                &nbsp;justify-content: center;
+                                &nbsp;padding: 0.5rem;
+                                &nbsp;    }
+                        
+                            .box {
+                                &nbsp;width: 5rem;
+                                &nbsp;height: 5rem;
+                                &nbsp;background-color: darkgreen;
+                                &nbsp;    }
+                        
+                            .media-mobile {
+                                &nbsp;display: none;
+                                &nbsp;    }
+                        
+                            .media-tablet {
+                                &nbsp;display: block;
+                                &nbsp;    }
+                        
+                            .media-desktop {
+                                &nbsp;display: none;
+                                &nbsp;    }
+                        }
+
+                        @media (min-width: 1024px) {
+                            .box {
+                                &nbsp;width: 7rem;
+                                &nbsp;height: 7rem;
+                                &nbsp;background-color: darkred;
+                                &nbsp;    }
+                        
+                            .media-mobile {
+                                &nbsp;display: none;
+                                &nbsp;    }
+                        
+                            .media-tablet {
+                                &nbsp;display: none;
+                                &nbsp;   }
+                        
+                            .media-desktop {
+                                &nbsp;display: block;
+                                &nbsp;    }
+                        }
+                    </code></pre>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="article__container">
+                <h2 id="caret-color">Caret-color</h2>
+                <div class="article__rendu">
+                    <h3>Rendu</h3>
+                    <div class="exemple__caret-color">
+                        <input type="text" class="input" placeholder="Écrivez quelque chose...">
+                    </div>
+                </div>
+
+                <div class="article__code">
+                    <h3>Code</h3>
+                    <div class="article__code-exemple">
+                        <pre><code>.exemple__caret-color {
+                            &nbsp;display: flex;
+                            &nbsp;flex-direction: column;
+                            &nbsp;justify-content: center;
+                            &nbsp;align-items: center;
+                            &nbsp;gap: 1rem;
+                        }
+                        
+                        .input {
+                            &nbsp;width: 15rem;
+                            &nbsp;padding: 10px;
+                            &nbsp;font-size: 16px;
+                            &nbsp;border: 2px solid red;
+                            &nbsp;caret-color: red; 
+                        }</code></pre>
+                    </div>
+                </div>
+            </div>
+        </article>
     </main>
     <footer>
         © Copyright Eve-Lyne Gagnon | <time datetime="2024-05-22"> &nbsp;22 mai 2024</time>
